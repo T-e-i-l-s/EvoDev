@@ -1,0 +1,38 @@
+
+{
+  "splash": {
+    "backgroundColor":"#800000",
+    "resizeMode": "contain"
+  },
+  "android": {
+    "package": "com.example.myapp"
+  },
+  "expo": {
+    "name": "EvoDev",
+    "slug": "EvoDev",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.karimmust123.EvoDev"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.karimmust123.EvoDev"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
